@@ -23,3 +23,15 @@ def out_screen_td():
             if temp_str[i] != '-1':
                 print(name_column[i], temp_str[i]+'  ', sep = ': ', end = ' ')
             
+def find_contact(find_data):
+    tel_dir_data = dataread.get_all_data()
+    found_list = []
+    for line in tel_dir_data:
+        if find_data in line:
+            found_list.append(line)
+    if found_list>[]:
+        for elem in found_list:
+            print(elem, end = '')
+    else: print('Искомое не найдено')
+    return
+        

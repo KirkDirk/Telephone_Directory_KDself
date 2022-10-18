@@ -1,5 +1,5 @@
 import ui as ui
-
+2
 print('\nПривет! Чего изволите: \n')
 
 while True:
@@ -7,7 +7,7 @@ while True:
     if mode == 1:
         ui.out_screen_td()
     elif mode == 2:
-        print('Здесь можно будет найти контакт')
+        ui.find_contact(input('Введите имя или номер телефона (или еще что-нибудь): '))
     elif mode == 3:
         print('Здесь можно будет добавить контакт')
     elif mode == 4:
