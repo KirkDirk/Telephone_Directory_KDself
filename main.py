@@ -1,5 +1,6 @@
 import ui as ui
-2
+import append as append
+
 print('\nПривет! Чего изволите: \n')
 
 while True:
@@ -9,7 +10,7 @@ while True:
     elif mode == 2:
         ui.find_contact(input('Введите имя или номер телефона (или еще что-нибудь): '))
     elif mode == 3:
-        print('Здесь можно будет добавить контакт')
+        append.add_new_personage()
     elif mode == 4:
         print('Всего хорошего!')
         break
