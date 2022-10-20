@@ -6,7 +6,7 @@ print('\nПривет! Чего изволите: \n')
 while True:
     mode = ui.start_menu()
     if mode == 1:
-        ui.out_screen_td()
+        ui.out_menu()
     elif mode == 2:
         ui.find_contact(input('Введите имя или номер телефона (или еще что-нибудь): '))
     elif mode == 3:

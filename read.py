@@ -2,7 +2,8 @@ def get_all_data():
     with open('db.txt', 'r', encoding='utf-8') as dbread:
         td_data = dbread.readlines()
         for line in td_data:
-            line[len(line)-1].rstrip
+            line.rstrip('\n\r')
+        print(td_data)
     return td_data
 
 def get_last_id():
