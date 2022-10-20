@@ -1,6 +1,5 @@
 import read as dataread
 import append as dataappend
-import csv
 
 def start_menu():
     mode_program = int(input(
